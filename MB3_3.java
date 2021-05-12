@@ -181,6 +181,7 @@ public class MB3_3{
         for (int[] row_lis : field){
             for(int cell : row_lis){
                 col_list[j][i] = cell;
+                row_list[i][j] = cell;
                 if (i == j){
                     crossL_List[j] = cell;
                 }                           
